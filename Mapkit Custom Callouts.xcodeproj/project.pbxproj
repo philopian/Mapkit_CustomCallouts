@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376FE9661A3BF8E000D7B9CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE9651A3BF8E000D7B9CD /* main.m */; };
+		376FE9691A3BF8E000D7B9CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE9681A3BF8E000D7B9CD /* AppDelegate.m */; };
+		376FE96C1A3BF8E000D7B9CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE96B1A3BF8E000D7B9CD /* ViewController.m */; };
+		376FE96F1A3BF8E000D7B9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376FE96D1A3BF8E000D7B9CD /* Main.storyboard */; };
+		376FE9711A3BF8E000D7B9CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376FE9701A3BF8E000D7B9CD /* Images.xcassets */; };
+		376FE9741A3BF8E000D7B9CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 376FE9721A3BF8E000D7B9CD /* LaunchScreen.xib */; };
+		376FE9801A3BF8E000D7B9CD /* Mapkit_Custom_CalloutsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE97F1A3BF8E000D7B9CD /* Mapkit_Custom_CalloutsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		376FE97A1A3BF8E000D7B9CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376FE9581A3BF8E000D7B9CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 376FE95F1A3BF8E000D7B9CD;
+			remoteInfo = "Mapkit Custom Callouts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		376FE9601A3BF8E000D7B9CD /* Mapkit Custom Callouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mapkit Custom Callouts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		376FE9641A3BF8E000D7B9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376FE9651A3BF8E000D7B9CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		376FE9671A3BF8E000D7B9CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		376FE9681A3BF8E000D7B9CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		376FE96A1A3BF8E000D7B9CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		376FE96B1A3BF8E000D7B9CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		376FE96E1A3BF8E000D7B9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		376FE9701A3BF8E000D7B9CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		376FE9731A3BF8E000D7B9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		376FE9791A3BF8E000D7B9CD /* Mapkit Custom CalloutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mapkit Custom CalloutsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		376FE97E1A3BF8E000D7B9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376FE97F1A3BF8E000D7B9CD /* Mapkit_Custom_CalloutsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mapkit_Custom_CalloutsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		376FE95D1A3BF8E000D7B9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		376FE9761A3BF8E000D7B9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376FE9571A3BF8E000D7B9CD = {
+			isa = PBXGroup;
+			children = (
+				376FE9621A3BF8E000D7B9CD /* Mapkit Custom Callouts */,
+				376FE97C1A3BF8E000D7B9CD /* Mapkit Custom CalloutsTests */,
+				376FE9611A3BF8E000D7B9CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		376FE9611A3BF8E000D7B9CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				376FE9601A3BF8E000D7B9CD /* Mapkit Custom Callouts.app */,
+				376FE9791A3BF8E000D7B9CD /* Mapkit Custom CalloutsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		376FE9621A3BF8E000D7B9CD /* Mapkit Custom Callouts */ = {
+			isa = PBXGroup;
+			children = (
+				376FE9671A3BF8E000D7B9CD /* AppDelegate.h */,
+				376FE9681A3BF8E000D7B9CD /* AppDelegate.m */,
+				376FE96A1A3BF8E000D7B9CD /* ViewController.h */,
+				376FE96B1A3BF8E000D7B9CD /* ViewController.m */,
+				376FE96D1A3BF8E000D7B9CD /* Main.storyboard */,
+				376FE9701A3BF8E000D7B9CD /* Images.xcassets */,
+				376FE9721A3BF8E000D7B9CD /* LaunchScreen.xib */,
+				376FE9631A3BF8E000D7B9CD /* Supporting Files */,
+			);
+			path = "Mapkit Custom Callouts";
+			sourceTree = "<group>";
+		};
+		376FE9631A3BF8E000D7B9CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				376FE9641A3BF8E000D7B9CD /* Info.plist */,
+				376FE9651A3BF8E000D7B9CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		376FE97C1A3BF8E000D7B9CD /* Mapkit Custom CalloutsTests */ = {
+			isa = PBXGroup;
+			children = (
+				376FE97F1A3BF8E000D7B9CD /* Mapkit_Custom_CalloutsTests.m */,
+				376FE97D1A3BF8E000D7B9CD /* Supporting Files */,
+			);
+			path = "Mapkit Custom CalloutsTests";
+			sourceTree = "<group>";
+		};
+		376FE97D1A3BF8E000D7B9CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				376FE97E1A3BF8E000D7B9CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		376FE95F1A3BF8E000D7B9CD /* Mapkit Custom Callouts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 376FE9831A3BF8E000D7B9CD /* Build configuration list for PBXNativeTarget "Mapkit Custom Callouts" */;
+			buildPhases = (
+				376FE95C1A3BF8E000D7B9CD /* Sources */,
+				376FE95D1A3BF8E000D7B9CD /* Frameworks */,
+				376FE95E1A3BF8E000D7B9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mapkit Custom Callouts";
+			productName = "Mapkit Custom Callouts";
+			productReference = 376FE9601A3BF8E000D7B9CD /* Mapkit Custom Callouts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		376FE9781A3BF8E000D7B9CD /* Mapkit Custom CalloutsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 376FE9861A3BF8E000D7B9CD /* Build configuration list for PBXNativeTarget "Mapkit Custom CalloutsTests" */;
+			buildPhases = (
+				376FE9751A3BF8E000D7B9CD /* Sources */,
+				376FE9761A3BF8E000D7B9CD /* Frameworks */,
+				376FE9771A3BF8E000D7B9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				376FE97B1A3BF8E000D7B9CD /* PBXTargetDependency */,
+			);
+			name = "Mapkit Custom CalloutsTests";
+			productName = "Mapkit Custom CalloutsTests";
+			productReference = 376FE9791A3BF8E000D7B9CD /* Mapkit Custom CalloutsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		376FE9581A3BF8E000D7B9CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Philippe Willis";
+				TargetAttributes = {
+					376FE95F1A3BF8E000D7B9CD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					376FE9781A3BF8E000D7B9CD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 376FE95F1A3BF8E000D7B9CD;
+					};
+				};
+			};
+			buildConfigurationList = 376FE95B1A3BF8E000D7B9CD /* Build configuration list for PBXProject "Mapkit Custom Callouts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 376FE9571A3BF8E000D7B9CD;
+			productRefGroup = 376FE9611A3BF8E000D7B9CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				376FE95F1A3BF8E000D7B9CD /* Mapkit Custom Callouts */,
+				376FE9781A3BF8E000D7B9CD /* Mapkit Custom CalloutsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		376FE95E1A3BF8E000D7B9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376FE96F1A3BF8E000D7B9CD /* Main.storyboard in Resources */,
+				376FE9741A3BF8E000D7B9CD /* LaunchScreen.xib in Resources */,
+				376FE9711A3BF8E000D7B9CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		376FE9771A3BF8E000D7B9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		376FE95C1A3BF8E000D7B9CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376FE96C1A3BF8E000D7B9CD /* ViewController.m in Sources */,
+				376FE9691A3BF8E000D7B9CD /* AppDelegate.m in Sources */,
+				376FE9661A3BF8E000D7B9CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		376FE9751A3BF8E000D7B9CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376FE9801A3BF8E000D7B9CD /* Mapkit_Custom_CalloutsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		376FE97B1A3BF8E000D7B9CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 376FE95F1A3BF8E000D7B9CD /* Mapkit Custom Callouts */;
+			targetProxy = 376FE97A1A3BF8E000D7B9CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		376FE96D1A3BF8E000D7B9CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				376FE96E1A3BF8E000D7B9CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		376FE9721A3BF8E000D7B9CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				376FE9731A3BF8E000D7B9CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		376FE9811A3BF8E000D7B9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		376FE9821A3BF8E000D7B9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		376FE9841A3BF8E000D7B9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mapkit Custom Callouts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		376FE9851A3BF8E000D7B9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mapkit Custom Callouts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		376FE9871A3BF8E000D7B9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mapkit Custom CalloutsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapkit Custom Callouts.app/Mapkit Custom Callouts";
+			};
+			name = Debug;
+		};
+		376FE9881A3BF8E000D7B9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mapkit Custom CalloutsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapkit Custom Callouts.app/Mapkit Custom Callouts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		376FE95B1A3BF8E000D7B9CD /* Build configuration list for PBXProject "Mapkit Custom Callouts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376FE9811A3BF8E000D7B9CD /* Debug */,
+				376FE9821A3BF8E000D7B9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		376FE9831A3BF8E000D7B9CD /* Build configuration list for PBXNativeTarget "Mapkit Custom Callouts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376FE9841A3BF8E000D7B9CD /* Debug */,
+				376FE9851A3BF8E000D7B9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		376FE9861A3BF8E000D7B9CD /* Build configuration list for PBXNativeTarget "Mapkit Custom CalloutsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376FE9871A3BF8E000D7B9CD /* Debug */,
+				376FE9881A3BF8E000D7B9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 376FE9581A3BF8E000D7B9CD /* Project object */;
+}
