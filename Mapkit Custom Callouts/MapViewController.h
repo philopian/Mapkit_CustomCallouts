@@ -10,6 +10,7 @@
 #import <MapKit/MapKit.h>
 #import "PWAnnotation.h"
 #import "PWAnnotationView.h"
+#import "WYPopoverController.h"
 
 @interface MapViewController : UIViewController <MKMapViewDelegate>
 @property (nonatomic,strong)PWAnnotation *myMarker;

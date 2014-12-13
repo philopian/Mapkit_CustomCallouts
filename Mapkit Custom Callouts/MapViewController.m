@@ -13,7 +13,7 @@
 
 @interface MapViewController ()
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
-
+@property (strong, nonatomic)  WYPopoverController *popover;
 @end
 
 @implementation MapViewController
@@ -78,17 +78,61 @@
 }
 
 
--(MKAnnotationView *)mapView:(MKMapView *)mapView
-           viewForAnnotation:(id<MKAnnotation>)annotation
-{
-    // Do all the logic in the PWAnnotationView and NOT here!!
-    static NSString *identifier = @"pin";
-    PWAnnotationView *pinView = (PWAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
-    if (pinView == nil) {
-        pinView = [[PWAnnotationView alloc]initWithAnnotation:annotation reuseIdentifier:identifier];
 
+
+
+
+
+- (MKAnnotationView *)mapView:(MKMapView *)mapView
+            viewForAnnotation:(id <MKAnnotation>)annotation
+{
+    static NSString *const MyAnnotationViewReuseID = @"MyAnnotationViewReuseID";
+    
+    PWAnnotationView *annotationView = (PWAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:MyAnnotationViewReuseID];
+    
+    if (!annotationView) {
+        annotationView = [[PWAnnotationView alloc] initWithAnnotation:annotation
+                                                      reuseIdentifier:MyAnnotationViewReuseID];
     }
-    return pinView;
+    
+    // MKAnnotationView's image property corresponds to the marker on the map
+    UIImage *flagImage = [UIImage imageNamed:@"map-marker.png"];
+    annotationView.image = flagImage;
+    
+    // Disable the default callout: we'll handle it on our own
+    annotationView.canShowCallout = NO;
+    
+    return annotationView;
+}
+
+- (void)mapView:(MKMapView *)mapView
+didSelectAnnotationView:(MKAnnotationView *)view
+{
+    // Our popover handles deselection so tell the map view we'll take care of it
+    [mapView deselectAnnotation:view.annotation animated:YES];
+    
+    if([view isKindOfClass:PWAnnotationView.class]) {
+        
+        // Start up our view controller from a Storyboard
+        UIViewController* controller = (UIViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"MyCustomPopoverIdentifier"];
+        
+        // Adjust this property to change the size of the popover + content
+        controller.preferredContentSize = CGSizeMake(150, 80);
+        
+        if(!self.popover) {
+            self.popover = [[WYPopoverController alloc] initWithContentViewController:controller];
+            
+            // Using WYPopoverController's iOS 6 theme
+            self.popover.theme = [WYPopoverTheme themeForIOS6];
+        }
+        
+        //POPOVER
+        [self.popover presentPopoverFromRect:view.bounds
+                                      inView:view
+                    permittedArrowDirections:WYPopoverArrowDirectionDown
+                                    animated:TRUE
+                                     options:WYPopoverAnimationOptionFadeWithScale];
+    }
 }
 
 
