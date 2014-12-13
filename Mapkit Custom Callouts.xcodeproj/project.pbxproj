@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		376FE9661A3BF8E000D7B9CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE9651A3BF8E000D7B9CD /* main.m */; };
 		376FE9691A3BF8E000D7B9CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE9681A3BF8E000D7B9CD /* AppDelegate.m */; };
-		376FE96C1A3BF8E000D7B9CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE96B1A3BF8E000D7B9CD /* ViewController.m */; };
 		376FE96F1A3BF8E000D7B9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376FE96D1A3BF8E000D7B9CD /* Main.storyboard */; };
 		376FE9711A3BF8E000D7B9CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376FE9701A3BF8E000D7B9CD /* Images.xcassets */; };
 		376FE9741A3BF8E000D7B9CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 376FE9721A3BF8E000D7B9CD /* LaunchScreen.xib */; };
 		376FE9801A3BF8E000D7B9CD /* Mapkit_Custom_CalloutsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE97F1A3BF8E000D7B9CD /* Mapkit_Custom_CalloutsTests.m */; };
+		376FE98A1A3BF8E900D7B9CD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376FE9891A3BF8E900D7B9CD /* MapKit.framework */; };
+		376FE98C1A3BF8FC00D7B9CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376FE98B1A3BF8FC00D7B9CD /* UIKit.framework */; };
+		376FE98E1A3BF90300D7B9CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376FE98D1A3BF90300D7B9CD /* Foundation.framework */; };
+		376FE9901A3BF90900D7B9CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376FE98F1A3BF90900D7B9CD /* QuartzCore.framework */; };
+		376FE9921A3BF91200D7B9CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376FE9911A3BF91200D7B9CD /* CoreGraphics.framework */; };
+		376FE9971A3BF96200D7B9CD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE9961A3BF96200D7B9CD /* MapViewController.m */; };
+		376FE9981A3BF96200D7B9CD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FE9961A3BF96200D7B9CD /* MapViewController.m */; };
+		376FE99B1A3BF9AF00D7B9CD /* map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 376FE99A1A3BF9AF00D7B9CD /* map-marker.png */; };
+		376FE99C1A3BF9AF00D7B9CD /* map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 376FE99A1A3BF9AF00D7B9CD /* map-marker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +40,20 @@
 		376FE9651A3BF8E000D7B9CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		376FE9671A3BF8E000D7B9CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		376FE9681A3BF8E000D7B9CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		376FE96A1A3BF8E000D7B9CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		376FE96B1A3BF8E000D7B9CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		376FE96E1A3BF8E000D7B9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		376FE9701A3BF8E000D7B9CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		376FE9731A3BF8E000D7B9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		376FE9791A3BF8E000D7B9CD /* Mapkit Custom CalloutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mapkit Custom CalloutsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		376FE97E1A3BF8E000D7B9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		376FE97F1A3BF8E000D7B9CD /* Mapkit_Custom_CalloutsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mapkit_Custom_CalloutsTests.m; sourceTree = "<group>"; };
+		376FE9891A3BF8E900D7B9CD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		376FE98B1A3BF8FC00D7B9CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		376FE98D1A3BF90300D7B9CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		376FE98F1A3BF90900D7B9CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		376FE9911A3BF91200D7B9CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		376FE9951A3BF96200D7B9CD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		376FE9961A3BF96200D7B9CD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		376FE99A1A3BF9AF00D7B9CD /* map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-marker.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376FE9921A3BF91200D7B9CD /* CoreGraphics.framework in Frameworks */,
+				376FE9901A3BF90900D7B9CD /* QuartzCore.framework in Frameworks */,
+				376FE98E1A3BF90300D7B9CD /* Foundation.framework in Frameworks */,
+				376FE98C1A3BF8FC00D7B9CD /* UIKit.framework in Frameworks */,
+				376FE98A1A3BF8E900D7B9CD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 		376FE9571A3BF8E000D7B9CD = {
 			isa = PBXGroup;
 			children = (
+				376FE9931A3BF91D00D7B9CD /* Frameworks */,
 				376FE9621A3BF8E000D7B9CD /* Mapkit Custom Callouts */,
 				376FE97C1A3BF8E000D7B9CD /* Mapkit Custom CalloutsTests */,
 				376FE9611A3BF8E000D7B9CD /* Products */,
@@ -81,10 +101,10 @@
 		376FE9621A3BF8E000D7B9CD /* Mapkit Custom Callouts */ = {
 			isa = PBXGroup;
 			children = (
+				376FE9941A3BF93800D7B9CD /* CustomClasses */,
 				376FE9671A3BF8E000D7B9CD /* AppDelegate.h */,
 				376FE9681A3BF8E000D7B9CD /* AppDelegate.m */,
-				376FE96A1A3BF8E000D7B9CD /* ViewController.h */,
-				376FE96B1A3BF8E000D7B9CD /* ViewController.m */,
+				376FE9991A3BF96800D7B9CD /* VC */,
 				376FE96D1A3BF8E000D7B9CD /* Main.storyboard */,
 				376FE9701A3BF8E000D7B9CD /* Images.xcassets */,
 				376FE9721A3BF8E000D7B9CD /* LaunchScreen.xib */,
@@ -96,6 +116,7 @@
 		376FE9631A3BF8E000D7B9CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				376FE99A1A3BF9AF00D7B9CD /* map-marker.png */,
 				376FE9641A3BF8E000D7B9CD /* Info.plist */,
 				376FE9651A3BF8E000D7B9CD /* main.m */,
 			);
@@ -117,6 +138,35 @@
 				376FE97E1A3BF8E000D7B9CD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		376FE9931A3BF91D00D7B9CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				376FE9911A3BF91200D7B9CD /* CoreGraphics.framework */,
+				376FE98F1A3BF90900D7B9CD /* QuartzCore.framework */,
+				376FE98D1A3BF90300D7B9CD /* Foundation.framework */,
+				376FE98B1A3BF8FC00D7B9CD /* UIKit.framework */,
+				376FE9891A3BF8E900D7B9CD /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		376FE9941A3BF93800D7B9CD /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomClasses;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		376FE9991A3BF96800D7B9CD /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				376FE9951A3BF96200D7B9CD /* MapViewController.h */,
+				376FE9961A3BF96200D7B9CD /* MapViewController.m */,
+			);
+			name = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +251,7 @@
 			files = (
 				376FE96F1A3BF8E000D7B9CD /* Main.storyboard in Resources */,
 				376FE9741A3BF8E000D7B9CD /* LaunchScreen.xib in Resources */,
+				376FE99B1A3BF9AF00D7B9CD /* map-marker.png in Resources */,
 				376FE9711A3BF8E000D7B9CD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376FE99C1A3BF9AF00D7B9CD /* map-marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				376FE96C1A3BF8E000D7B9CD /* ViewController.m in Sources */,
+				376FE9971A3BF96200D7B9CD /* MapViewController.m in Sources */,
 				376FE9691A3BF8E000D7B9CD /* AppDelegate.m in Sources */,
 				376FE9661A3BF8E000D7B9CD /* main.m in Sources */,
 			);
@@ -230,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				376FE9801A3BF8E000D7B9CD /* Mapkit_Custom_CalloutsTests.m in Sources */,
+				376FE9981A3BF96200D7B9CD /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
