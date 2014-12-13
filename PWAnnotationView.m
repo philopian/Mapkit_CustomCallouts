@@ -21,7 +21,7 @@
     self.image = [UIImage imageNamed:@"map-marker.png"];
     
     self.enabled = YES;
-    self.canShowCallout = YES;
+    self.canShowCallout = NO;//we want to disable the callout cause we will handle it with the WYPopoverController
     
     return self;
 }
