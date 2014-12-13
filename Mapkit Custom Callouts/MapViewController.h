@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import "PWAnnotation.h"
+#import "PWAnnotationView.h"
 
 @interface MapViewController : UIViewController <MKMapViewDelegate>
 @property (nonatomic,strong)PWAnnotation *myMarker;

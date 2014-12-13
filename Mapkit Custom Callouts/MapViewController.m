@@ -78,7 +78,18 @@
 }
 
 
+-(MKAnnotationView *)mapView:(MKMapView *)mapView
+           viewForAnnotation:(id<MKAnnotation>)annotation
+{
+    // Do all the logic in the PWAnnotationView and NOT here!!
+    static NSString *identifier = @"pin";
+    PWAnnotationView *pinView = (PWAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+    if (pinView == nil) {
+        pinView = [[PWAnnotationView alloc]initWithAnnotation:annotation reuseIdentifier:identifier];
 
+    }
+    return pinView;
+}
 
 
 
