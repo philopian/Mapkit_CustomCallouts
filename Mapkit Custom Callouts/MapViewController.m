@@ -18,9 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    // set the delegate to get callbacks
-    [self.mapView setDelegate:self];
+
+    // load the map
+    [self loadMap];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,14 +28,32 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - Map Stuff
+
+-(void)loadMap
+{
+    // set the delegate to get callbacks
+    [self.mapView setDelegate:self];
+    
+    // center coordinate
+    CLLocationCoordinate2D mapCenter;
+    mapCenter.latitude = 45.5200;
+    mapCenter.longitude = -122.6819;
+    
+    // map's span
+    MKCoordinateSpan span;
+    span.latitudeDelta = 1; // 1 degree
+    span.longitudeDelta = 1;
+    
+    // maps's region
+    MKCoordinateRegion region;
+    region.center = mapCenter;
+    region.span = span;
+    
+    [self.mapView setRegion:region animated:YES];
 }
-*/
+
+
 
 @end
